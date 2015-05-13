@@ -1,0 +1,5 @@
+C:\Users\Ruwan Ranganath\documents\visual studio 2013\Projects\OrginxDataService\OrginxDataService\bin\Debug\OrginxDataService.dll.config
+C:\Users\Ruwan Ranganath\documents\visual studio 2013\Projects\OrginxDataService\OrginxDataService\bin\Debug\OrginxDataService.dll
+C:\Users\Ruwan Ranganath\documents\visual studio 2013\Projects\OrginxDataService\OrginxDataService\bin\Debug\OrginxDataService.pdb
+C:\Users\Ruwan Ranganath\documents\visual studio 2013\Projects\OrginxDataService\OrginxDataService\obj\Debug\OrginxDataService.dll
+C:\Users\Ruwan Ranganath\documents\visual studio 2013\Projects\OrginxDataService\OrginxDataService\obj\Debug\OrginxDataService.pdb

@@ -1,0 +1,11 @@
+﻿<Window x:Class="OriginxWindowsClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Label x:Name="displayLabel" Content="" HorizontalAlignment="Left" Margin="28,175,0,0" VerticalAlignment="Top" Height="90" Width="434" FontSize="36"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="118,114,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <TextBox x:Name="displayText" HorizontalAlignment="Left" Height="23" Margin="73,86,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>

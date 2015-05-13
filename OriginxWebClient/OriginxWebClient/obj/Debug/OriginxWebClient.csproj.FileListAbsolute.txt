@@ -1,0 +1,6 @@
+C:\Users\Ruwan Ranganath\documents\visual studio 2013\Projects\OriginxWebClient\OriginxWebClient\bin\OriginxWebClient.dll.config
+C:\Users\Ruwan Ranganath\documents\visual studio 2013\Projects\OriginxWebClient\OriginxWebClient\bin\OriginxWebClient.dll
+C:\Users\Ruwan Ranganath\documents\visual studio 2013\Projects\OriginxWebClient\OriginxWebClient\bin\OriginxWebClient.pdb
+C:\Users\Ruwan Ranganath\documents\visual studio 2013\Projects\OriginxWebClient\OriginxWebClient\obj\Debug\OriginxWebClient.csprojResolveAssemblyReference.cache
+C:\Users\Ruwan Ranganath\documents\visual studio 2013\Projects\OriginxWebClient\OriginxWebClient\obj\Debug\OriginxWebClient.dll
+C:\Users\Ruwan Ranganath\documents\visual studio 2013\Projects\OriginxWebClient\OriginxWebClient\obj\Debug\OriginxWebClient.pdb

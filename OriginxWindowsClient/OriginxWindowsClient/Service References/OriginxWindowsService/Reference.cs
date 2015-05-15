@@ -9,7 +9,102 @@
 //------------------------------------------------------------------------------
 
 namespace OriginxWindowsClient.OriginxWindowsService {
+    using System.Runtime.Serialization;
+    using System;
     
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="EmployeeClass", Namespace="http://schemas.datacontract.org/2004/07/OrginxDataService")]
+    [System.SerializableAttribute()]
+    internal partial class EmployeeClass : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int Emp_IDField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string PasswordField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int User_levelField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string UsernameField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        internal int Emp_ID {
+            get {
+                return this.Emp_IDField;
+            }
+            set {
+                if ((this.Emp_IDField.Equals(value) != true)) {
+                    this.Emp_IDField = value;
+                    this.RaisePropertyChanged("Emp_ID");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        internal string Password {
+            get {
+                return this.PasswordField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.PasswordField, value) != true)) {
+                    this.PasswordField = value;
+                    this.RaisePropertyChanged("Password");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        internal int User_level {
+            get {
+                return this.User_levelField;
+            }
+            set {
+                if ((this.User_levelField.Equals(value) != true)) {
+                    this.User_levelField = value;
+                    this.RaisePropertyChanged("User_level");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        internal string Username {
+            get {
+                return this.UsernameField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.UsernameField, value) != true)) {
+                    this.UsernameField = value;
+                    this.RaisePropertyChanged("Username");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     [System.ServiceModel.ServiceContractAttribute(ConfigurationName="OriginxWindowsService.IOriginxDataService")]
@@ -55,6 +150,53 @@ namespace OriginxWindowsClient.OriginxWindowsService {
         
         public System.Threading.Tasks.Task<string> getMessageAsync(string name) {
             return base.Channel.getMessageAsync(name);
+        }
+    }
+    
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="OriginxWindowsService.IEmployeeService")]
+    internal interface IEmployeeService {
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IEmployeeService/addEmployee", ReplyAction="http://tempuri.org/IEmployeeService/addEmployeeResponse")]
+        void addEmployee(OriginxWindowsClient.OriginxWindowsService.EmployeeClass emp);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IEmployeeService/addEmployee", ReplyAction="http://tempuri.org/IEmployeeService/addEmployeeResponse")]
+        System.Threading.Tasks.Task addEmployeeAsync(OriginxWindowsClient.OriginxWindowsService.EmployeeClass emp);
+    }
+    
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    internal interface IEmployeeServiceChannel : OriginxWindowsClient.OriginxWindowsService.IEmployeeService, System.ServiceModel.IClientChannel {
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    internal partial class EmployeeServiceClient : System.ServiceModel.ClientBase<OriginxWindowsClient.OriginxWindowsService.IEmployeeService>, OriginxWindowsClient.OriginxWindowsService.IEmployeeService {
+        
+        public EmployeeServiceClient() {
+        }
+        
+        public EmployeeServiceClient(string endpointConfigurationName) : 
+                base(endpointConfigurationName) {
+        }
+        
+        public EmployeeServiceClient(string endpointConfigurationName, string remoteAddress) : 
+                base(endpointConfigurationName, remoteAddress) {
+        }
+        
+        public EmployeeServiceClient(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) : 
+                base(endpointConfigurationName, remoteAddress) {
+        }
+        
+        public EmployeeServiceClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
+                base(binding, remoteAddress) {
+        }
+        
+        public void addEmployee(OriginxWindowsClient.OriginxWindowsService.EmployeeClass emp) {
+            base.Channel.addEmployee(emp);
+        }
+        
+        public System.Threading.Tasks.Task addEmployeeAsync(OriginxWindowsClient.OriginxWindowsService.EmployeeClass emp) {
+            return base.Channel.addEmployeeAsync(emp);
         }
     }
 }

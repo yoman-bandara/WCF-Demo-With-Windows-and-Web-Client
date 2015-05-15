@@ -1,7 +1,7 @@
 ﻿<Application x:Class="OriginxWindowsClient.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             StartupUri="MainWindow.xaml">
+             StartupUri="CustomerForm/InsertCustomer.xaml">
     <Application.Resources>
          
     </Application.Resources>

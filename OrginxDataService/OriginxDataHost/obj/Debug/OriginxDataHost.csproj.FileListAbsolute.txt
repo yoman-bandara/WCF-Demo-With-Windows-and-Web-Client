@@ -6,3 +6,11 @@ C:\Users\Ruwan Ranganath\documents\visual studio 2013\Projects\OrginxDataService
 C:\Users\Ruwan Ranganath\documents\visual studio 2013\Projects\OrginxDataService\OriginxDataHost\obj\Debug\OriginxDataHost.csprojResolveAssemblyReference.cache
 C:\Users\Ruwan Ranganath\documents\visual studio 2013\Projects\OrginxDataService\OriginxDataHost\obj\Debug\OriginxDataHost.exe
 C:\Users\Ruwan Ranganath\documents\visual studio 2013\Projects\OrginxDataService\OriginxDataHost\obj\Debug\OriginxDataHost.pdb
+F:\GitHub\WCF Demo With Windows & Web Client\OrginxDataService\OriginxDataHost\bin\Debug\OriginxDataHost.exe.config
+F:\GitHub\WCF Demo With Windows & Web Client\OrginxDataService\OriginxDataHost\bin\Debug\OriginxDataHost.exe
+F:\GitHub\WCF Demo With Windows & Web Client\OrginxDataService\OriginxDataHost\bin\Debug\OriginxDataHost.pdb
+F:\GitHub\WCF Demo With Windows & Web Client\OrginxDataService\OriginxDataHost\bin\Debug\OrginxDataService.dll
+F:\GitHub\WCF Demo With Windows & Web Client\OrginxDataService\OriginxDataHost\bin\Debug\OrginxDataService.pdb
+F:\GitHub\WCF Demo With Windows & Web Client\OrginxDataService\OriginxDataHost\obj\Debug\OriginxDataHost.csprojResolveAssemblyReference.cache
+F:\GitHub\WCF Demo With Windows & Web Client\OrginxDataService\OriginxDataHost\obj\Debug\OriginxDataHost.exe
+F:\GitHub\WCF Demo With Windows & Web Client\OrginxDataService\OriginxDataHost\obj\Debug\OriginxDataHost.pdb

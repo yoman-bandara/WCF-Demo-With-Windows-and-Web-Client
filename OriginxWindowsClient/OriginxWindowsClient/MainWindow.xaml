@@ -4,8 +4,17 @@
         Title="MainWindow" Height="350" Width="525">
     <Grid>
         <Label x:Name="displayLabel" Content="" HorizontalAlignment="Left" Margin="28,175,0,0" VerticalAlignment="Top" Height="90" Width="434" FontSize="36"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="118,114,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
-        <TextBox x:Name="displayText" HorizontalAlignment="Left" Height="23" Margin="73,86,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="118,190,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <TextBox x:Name="displayText" HorizontalAlignment="Left" Height="23" Margin="118,86,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166" RenderTransformOrigin="0.5,0.5">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="1.068"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
 
     </Grid>
 </Window>

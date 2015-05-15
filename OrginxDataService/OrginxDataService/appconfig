@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+    </configSections>
+    <connectionStrings>
+        <add name="OrginxDataService.Properties.Settings.OriginXDBConnectionString"
+            connectionString="Data Source=RANGANATH;Initial Catalog=OriginXDB;Integrated Security=True"
+            providerName="System.Data.SqlClient" />
+    </connectionStrings>
+    <system.serviceModel>
+        <behaviors>
+            <serviceBehaviors>
+                <behavior name="">
+                    <serviceMetadata httpGetEnabled="true" httpsGetEnabled="true" />
+                    <serviceDebug includeExceptionDetailInFaults="false" />
+                </behavior>
+            </serviceBehaviors>
+        </behaviors>
+        <services>
+            <service name="OrginxDataService.OriginxDataService">
+                <endpoint address="" binding="basicHttpBinding" contract="OrginxDataService.IOriginxDataService">
+                    <identity>
+                        <dns value="localhost" />
+                    </identity>
+                </endpoint>
+                <endpoint address="mex" binding="mexHttpBinding" contract="IMetadataExchange" />
+                <host>
+                    <baseAddresses>
+                        <add baseAddress="http://localhost:8733/Design_Time_Addresses/OrginxDataService/OriginxDataService/" />
+                    </baseAddresses>
+                </host>
+            </service>
+            <service name="OrginxDataService.Service1">
+                <endpoint address="" binding="basicHttpBinding" contract="OrginxDataService.IService1">
+                    <identity>
+                        <dns value="localhost" />
+                    </identity>
+                </endpoint>
+                <endpoint address="mex" binding="mexHttpBinding" contract="IMetadataExchange" />
+                <host>
+                    <baseAddresses>
+                        <add baseAddress="http://localhost:8733/Design_Time_Addresses/OrginxDataService/Service1/" />
+                    </baseAddresses>
+                </host>
+            </service>
+            <service name="OrginxDataService.EmployeeService">
+                <endpoint address="" binding="basicHttpBinding" contract="OrginxDataService.IEmployeeService">
+                    <identity>
+                        <dns value="localhost" />
+                    </identity>
+                </endpoint>
+                <endpoint address="mex" binding="mexHttpBinding" contract="IMetadataExchange" />
+                <host>
+                    <baseAddresses>
+                        <add baseAddress="http://localhost:8733/Design_Time_Addresses/OrginxDataService/EmployeeService/" />
+                    </baseAddresses>
+                </host>
+            </service>
+            <service name="OrginxDataService.CustomerService">
+                <endpoint address="" binding="basicHttpBinding" contract="OrginxDataService.ICustomerService">
+                    <identity>
+                        <dns value="localhost" />
+                    </identity>
+                </endpoint>
+                <endpoint address="mex" binding="mexHttpBinding" contract="IMetadataExchange" />
+                <host>
+                    <baseAddresses>
+                        <add baseAddress="http://localhost:8733/Design_Time_Addresses/OrginxDataService/CustomerService/" />
+                    </baseAddresses>
+                </host>
+            </service>
+        </services>
+    </system.serviceModel>
+</configuration>

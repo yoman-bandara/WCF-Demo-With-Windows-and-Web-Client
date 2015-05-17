@@ -28,3 +28,13 @@ F:\GitHub\WCF Demo With Windows & Web Client\OriginxWindowsClient\OriginxWindows
 F:\GitHub\WCF Demo With Windows & Web Client\OriginxWindowsClient\OriginxWindowsClient\bin\Debug\OriginxWindowsClient.pdb
 F:\GitHub\WCF Demo With Windows & Web Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\CustomerForm\InsertCustomer.baml
 F:\GitHub\WCF Demo With Windows & Web Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\CustomerForm\InsertCustomer.g.cs
+F:\GitHub\WCF Demo With Windows & Web Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\Resources\Icons.baml
+F:\GitHub\WCF Demo With Windows & Web Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\Resources\Icons.g.cs
+F:\GitHub\WCF Demo With Windows & Web Client\OriginxWindowsClient\OriginxWindowsClient\bin\Debug\MahApps.Metro.dll
+F:\GitHub\WCF Demo With Windows & Web Client\OriginxWindowsClient\OriginxWindowsClient\bin\Debug\MahApps.Metro.SimpleChildWindow.dll
+F:\GitHub\WCF Demo With Windows & Web Client\OriginxWindowsClient\OriginxWindowsClient\bin\Debug\System.Windows.Interactivity.dll
+F:\GitHub\WCF Demo With Windows & Web Client\OriginxWindowsClient\OriginxWindowsClient\bin\Debug\MahApps.Metro.xml
+F:\GitHub\WCF Demo With Windows & Web Client\OriginxWindowsClient\OriginxWindowsClient\bin\Debug\MahApps.Metro.SimpleChildWindow.xml
+F:\GitHub\WCF Demo With Windows & Web Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\App.baml
+F:\GitHub\WCF Demo With Windows & Web Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\CustomerForm\CustomerManage.baml
+F:\GitHub\WCF Demo With Windows & Web Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\CustomerForm\CustomerManage.g.cs

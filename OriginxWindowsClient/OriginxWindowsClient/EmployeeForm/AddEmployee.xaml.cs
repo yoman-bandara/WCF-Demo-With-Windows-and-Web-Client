@@ -26,9 +26,7 @@ namespace OriginxWindowsClient.EmployeeForm
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            
-
-            EmployeeService.EmployeeServiceClient client = new EmployeeService.EmployeeServiceClient();
+                       EmployeeService.EmployeeServiceClient client = new EmployeeService.EmployeeServiceClient();
             EmployeeService.EmployeeClass emp = new EmployeeService.EmployeeClass();
 
             emp.Username = txtUsername.Text ;

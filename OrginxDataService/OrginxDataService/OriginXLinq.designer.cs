@@ -70,9 +70,9 @@ namespace OrginxDataService
 		}
 		
 		[global::System.Data.Linq.Mapping.FunctionAttribute(Name="dbo.addCustomer")]
-		public int addCustomer([global::System.Data.Linq.Mapping.ParameterAttribute(DbType="VarChar(50)")] string name, [global::System.Data.Linq.Mapping.ParameterAttribute(DbType="VarChar(50)")] string address, [global::System.Data.Linq.Mapping.ParameterAttribute(DbType="VarChar(50)")] string type)
+		public int addCustomer([global::System.Data.Linq.Mapping.ParameterAttribute(DbType="VarChar(50)")] string name, [global::System.Data.Linq.Mapping.ParameterAttribute(DbType="VarChar(50)")] string address, [global::System.Data.Linq.Mapping.ParameterAttribute(DbType="VarChar(50)")] string type, [global::System.Data.Linq.Mapping.ParameterAttribute(DbType="Int")] System.Nullable<int> phoneno1, [global::System.Data.Linq.Mapping.ParameterAttribute(DbType="Int")] System.Nullable<int> phoneno2, [global::System.Data.Linq.Mapping.ParameterAttribute(DbType="VarChar(50)")] string clientlogo, [global::System.Data.Linq.Mapping.ParameterAttribute(DbType="VarChar(50)")] string additionalinfo)
 		{
-			IExecuteResult result = this.ExecuteMethodCall(this, ((MethodInfo)(MethodInfo.GetCurrentMethod())), name, address, type);
+			IExecuteResult result = this.ExecuteMethodCall(this, ((MethodInfo)(MethodInfo.GetCurrentMethod())), name, address, type, phoneno1, phoneno2, clientlogo, additionalinfo);
 			return ((int)(result.ReturnValue));
 		}
 	}

@@ -12,13 +12,15 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using MahApps.Metro.Controls;
 
 namespace OriginxWindowsClient
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainWindow : MetroWindow
+
     {
         public MainWindow()
         {
@@ -27,10 +29,15 @@ namespace OriginxWindowsClient
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            
+            try
+            {
                 OriginxWindowsService.OriginxDataServiceClient client = new OriginxWindowsService.OriginxDataServiceClient("NetTcpBinding_IOriginxDataService");
                 displayLabel.Content = client.getMessage(displayText.Text);
-
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("This is Error" + ex);
+            }
                       
         }
     }

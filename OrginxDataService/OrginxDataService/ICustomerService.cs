@@ -13,5 +13,16 @@ namespace OrginxDataService
     {
         [OperationContract]
         void AddCustomer(CustomerClass Customer);
+
+        [OperationContract]
+        void DeleteCustomer(CustomerClass Customer);
+
+        [OperationContract]
+        void UpdateCustomer(CustomerClass Customer);
+
+        [OperationContract]
+        void SearchCustomer(CustomerClass Customer);
+
+    
     }
 }

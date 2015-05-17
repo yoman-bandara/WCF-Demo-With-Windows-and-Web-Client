@@ -13,11 +13,15 @@ namespace OrginxDataService
     // NOTE: You can use the "Rename" command on the "Refactor" menu to change the class name "OriginxDataService" in both code and config file together.
     public class OriginxDataService : IOriginxDataService,IEmployeeService,ICustomerService
     {
+
+       
+        // This getMessage is just for testing if any bug comeup with WCF
         public string getMessage(string name)
         {
             return "Hello " + name;
         }
 
+        // Add New Employee With Stored Proceedure and Linq (OriginxLinq.dbml) 
         public void addEmployee(EmployeeClass emp)
         {
             
@@ -69,6 +73,7 @@ namespace OrginxDataService
             //}
         }
 
+        // Add new Customer with stored proceedure and linq 
         public void AddCustomer(CustomerClass Customer)
         {
             try
@@ -77,7 +82,12 @@ namespace OrginxDataService
                 AddCustomer.addCustomer(
                     Customer.Name,
                     Customer.Address,
-                    Customer.Type);
+                    Customer.Type,
+                    Customer.Phoneno1,
+                    Customer.Phoneno2,
+                    Customer.Clientlogo,
+                    Customer.Additionalinfo
+                    );
             }
             catch (Exception ex)
             {
@@ -86,5 +96,23 @@ namespace OrginxDataService
             }
 
         }
+
+
+        public void DeleteCustomer(CustomerClass Customer)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void UpdateCustomer(CustomerClass Customer)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void SearchCustomer(CustomerClass Customer)
+        {
+            throw new NotImplementedException();
+        }
+
+
     }
 }

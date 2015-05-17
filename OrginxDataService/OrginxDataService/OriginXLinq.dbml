@@ -10,6 +10,10 @@
     <Parameter Name="name" Type="System.String" DbType="VarChar(50)" />
     <Parameter Name="address" Type="System.String" DbType="VarChar(50)" />
     <Parameter Name="type" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="phoneno1" Type="System.Int32" DbType="Int" />
+    <Parameter Name="phoneno2" Type="System.Int32" DbType="Int" />
+    <Parameter Name="clientlogo" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="additionalinfo" Type="System.String" DbType="VarChar(50)" />
     <Return Type="System.Int32" />
   </Function>
 </Database>

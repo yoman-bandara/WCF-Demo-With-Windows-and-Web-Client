@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?><Database Name="OriginXDB" Class="OriginXLinqDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
-  <Connection Mode="AppSettings" ConnectionString="Data Source=RANGANATH;Initial Catalog=OriginXDB;Integrated Security=True" SettingsObjectName="OrginxDataService.Properties.Settings" SettingsPropertyName="OriginXDBConnectionString" Provider="System.Data.SqlClient" />
+  <Connection Mode="AppSettings" ConnectionString="Data Source=YOMAN;Initial Catalog=OriginXDB;Integrated Security=True" SettingsObjectName="OrginxDataService.Properties.Settings" SettingsPropertyName="OriginXDBConnectionString1" Provider="System.Data.SqlClient" />
   <Function Name="dbo.addemployees" Method="addemployees">
     <Parameter Name="username" Type="System.String" DbType="VarChar(50)" />
     <Parameter Name="password" Type="System.String" DbType="VarChar(50)" />
@@ -14,6 +14,13 @@
     <Parameter Name="phoneno2" Type="System.Int32" DbType="Int" />
     <Parameter Name="clientlogo" Type="System.String" DbType="VarChar(50)" />
     <Parameter Name="additionalinfo" Type="System.String" DbType="VarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.addWorldOffice" Method="addWorldOffice">
+    <Parameter Name="officename" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="officecountry" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="officeadmin" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="officedesc" Type="System.String" DbType="VarChar(50)" />
     <Return Type="System.Int32" />
   </Function>
 </Database>

@@ -95,6 +95,14 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
+    <Compile Include="Service References\WorldWideBranchService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="worldwidebranch\WorldWidOfficeManager.xaml.cs">
+      <DependentUpon>WorldWidOfficeManager.xaml</DependentUpon>
+    </Compile>
     <Page Include="CustomerForm\CustomerManage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -123,6 +131,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="worldwidebranch\WorldWidOfficeManager.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -149,6 +161,16 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
     <AppDesigner Include="Properties\" />
+    <None Include="Service References\WorldWideBranchService\item.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\WorldWideBranchService\item1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\WorldWideBranchService\item2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\WorldWideBranchService\OriginxDataService.wsdl" />
     <Resource Include="Resources\Entypo.ttf" />
     <None Include="Service References\CustomerService\item.xsd">
       <SubType>Designer</SubType>
@@ -202,6 +224,7 @@
     <WCFMetadataStorage Include="Service References\EmailService\" />
     <WCFMetadataStorage Include="Service References\EmployeeService\" />
     <WCFMetadataStorage Include="Service References\OriginxWindowsService\" />
+    <WCFMetadataStorage Include="Service References\WorldWideBranchService\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Service References\OriginxWindowsService\item.disco" />
@@ -269,6 +292,22 @@
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\WorldWideBranchService\item.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\WorldWideBranchService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\WorldWideBranchService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\WorldWideBranchService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

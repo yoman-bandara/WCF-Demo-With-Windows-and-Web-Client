@@ -14,3 +14,11 @@ F:\GitHub\WCF Demo With Windows & Web Client\OrginxDataService\OriginxDataHost\b
 F:\GitHub\WCF Demo With Windows & Web Client\OrginxDataService\OriginxDataHost\obj\Debug\OriginxDataHost.csprojResolveAssemblyReference.cache
 F:\GitHub\WCF Demo With Windows & Web Client\OrginxDataService\OriginxDataHost\obj\Debug\OriginxDataHost.exe
 F:\GitHub\WCF Demo With Windows & Web Client\OrginxDataService\OriginxDataHost\obj\Debug\OriginxDataHost.pdb
+F:\origin x\WCF-Demo-With-Windows-and-Web-Client\OrginxDataService\OriginxDataHost\bin\Debug\OriginxDataHost.exe.config
+F:\origin x\WCF-Demo-With-Windows-and-Web-Client\OrginxDataService\OriginxDataHost\obj\Debug\OriginxDataHost.csprojResolveAssemblyReference.cache
+F:\origin x\WCF-Demo-With-Windows-and-Web-Client\OrginxDataService\OriginxDataHost\bin\Debug\OriginxDataHost.exe
+F:\origin x\WCF-Demo-With-Windows-and-Web-Client\OrginxDataService\OriginxDataHost\bin\Debug\OriginxDataHost.pdb
+F:\origin x\WCF-Demo-With-Windows-and-Web-Client\OrginxDataService\OriginxDataHost\bin\Debug\OrginxDataService.dll
+F:\origin x\WCF-Demo-With-Windows-and-Web-Client\OrginxDataService\OriginxDataHost\bin\Debug\OrginxDataService.pdb
+F:\origin x\WCF-Demo-With-Windows-and-Web-Client\OrginxDataService\OriginxDataHost\obj\Debug\OriginxDataHost.exe
+F:\origin x\WCF-Demo-With-Windows-and-Web-Client\OrginxDataService\OriginxDataHost\obj\Debug\OriginxDataHost.pdb

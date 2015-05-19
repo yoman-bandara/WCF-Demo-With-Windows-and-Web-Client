@@ -147,7 +147,15 @@ namespace OrginxDataService
 
         public void AddWorldWideBranch(WorldWideBranchClass WorldWideBranch)
         {
-            
+            try
+            {
+                var addWorldWideBranch = new OriginXLinqDataContext();
+                addWorldWideBranch.addWorldOffice(WorldWideBranch.Officename, WorldWideBranch.Officecountry, WorldWideBranch.Officeadmin,WorldWideBranch.Officedesc);
+            }
+            catch (Exception ex)
+            {
+
+            }
         }
     }
 }

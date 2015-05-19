@@ -51,6 +51,7 @@
     <Compile Include="IEmailService.cs" />
     <Compile Include="IEmployeeService.cs" />
     <Compile Include="IOriginxDataService.cs" />
+    <Compile Include="IWorlWideBranchService.cs" />
     <Compile Include="OriginxDataService.cs" />
     <Compile Include="OriginXLinq.designer.cs">
       <AutoGen>True</AutoGen>
@@ -63,6 +64,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
+    <Compile Include="WorldWideBranchClass.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

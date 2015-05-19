@@ -38,3 +38,32 @@ F:\GitHub\WCF Demo With Windows & Web Client\OriginxWindowsClient\OriginxWindows
 F:\GitHub\WCF Demo With Windows & Web Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\App.baml
 F:\GitHub\WCF Demo With Windows & Web Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\CustomerForm\CustomerManage.baml
 F:\GitHub\WCF Demo With Windows & Web Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\CustomerForm\CustomerManage.g.cs
+F:\origin x\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\bin\Debug\OriginxWindowsClient.exe.config
+F:\origin x\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\bin\Debug\OriginxWindowsClient.exe
+F:\origin x\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\bin\Debug\OriginxWindowsClient.pdb
+F:\origin x\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\bin\Debug\MahApps.Metro.dll
+F:\origin x\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\bin\Debug\MahApps.Metro.SimpleChildWindow.dll
+F:\origin x\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\bin\Debug\System.Windows.Interactivity.dll
+F:\origin x\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\bin\Debug\MahApps.Metro.xml
+F:\origin x\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\bin\Debug\MahApps.Metro.SimpleChildWindow.xml
+F:\origin x\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\OriginxWindowsClient.csprojResolveAssemblyReference.cache
+F:\origin x\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\CustomerForm\CustomerManage.baml
+F:\origin x\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\CustomerForm\InsertCustomer.baml
+F:\origin x\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\EmployeeForm\AddEmployee.baml
+F:\origin x\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\MainWindow.baml
+F:\origin x\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\Resources\Icons.baml
+F:\origin x\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\worldwidebranch\WorldWidOfficeManager.baml
+F:\origin x\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\App.baml
+F:\origin x\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\CustomerForm\CustomerManage.g.cs
+F:\origin x\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\CustomerForm\InsertCustomer.g.cs
+F:\origin x\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\EmployeeForm\AddEmployee.g.cs
+F:\origin x\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\MainWindow.g.cs
+F:\origin x\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\Resources\Icons.g.cs
+F:\origin x\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\worldwidebranch\WorldWidOfficeManager.g.cs
+F:\origin x\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\App.g.cs
+F:\origin x\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\OriginxWindowsClient_MarkupCompile.cache
+F:\origin x\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\OriginxWindowsClient.g.resources
+F:\origin x\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\OriginxWindowsClient.Properties.Resources.resources
+F:\origin x\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\OriginxWindowsClient.csproj.GenerateResource.Cache
+F:\origin x\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\OriginxWindowsClient.exe
+F:\origin x\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\OriginxWindowsClient.pdb

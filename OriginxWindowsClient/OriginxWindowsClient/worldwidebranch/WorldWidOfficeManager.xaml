@@ -1,0 +1,13 @@
+﻿<Window x:Class="OriginxWindowsClient.worldwidebranch.WorldWidOfficeManager"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="WorldWidOfficeManager" Height="494.03" Width="737.313">
+    <Grid>
+        <TextBox x:Name="officename" HorizontalAlignment="Left" Height="23" Margin="244,98,0,0" TextWrapping="Wrap" Text="officename" VerticalAlignment="Top" Width="120" RenderTransformOrigin="-0.302,-2.532"/>
+        <TextBox x:Name="officedesc" HorizontalAlignment="Left" Height="23" Margin="244,257,0,0" TextWrapping="Wrap" Text="officedesc" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="officecountry" HorizontalAlignment="Left" Height="23" Margin="244,150,0,0" TextWrapping="Wrap" Text="officecountry" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="officeadmin" HorizontalAlignment="Left" Height="23" Margin="244,206,0,0" TextWrapping="Wrap" Text="officeadmin" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="289,288,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+
+    </Grid>
+</Window>

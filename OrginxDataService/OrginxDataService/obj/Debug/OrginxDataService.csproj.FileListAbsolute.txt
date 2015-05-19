@@ -9,3 +9,9 @@ F:\GitHub\WCF Demo With Windows & Web Client\OrginxDataService\OrginxDataService
 F:\GitHub\WCF Demo With Windows & Web Client\OrginxDataService\OrginxDataService\obj\Debug\OrginxDataService.dll
 F:\GitHub\WCF Demo With Windows & Web Client\OrginxDataService\OrginxDataService\obj\Debug\OrginxDataService.pdb
 F:\GitHub\WCF Demo With Windows & Web Client\OrginxDataService\OrginxDataService\bin\Debug\OrginxDataService.dll.config
+C:\Users\Belpage\Documents\GitHub\WCF-Demo-With-Windows-and-Web-Client\OrginxDataService\OrginxDataService\bin\Debug\OrginxDataService.dll.config
+C:\Users\Belpage\Documents\GitHub\WCF-Demo-With-Windows-and-Web-Client\OrginxDataService\OrginxDataService\bin\Debug\OrginxDataService.dll
+C:\Users\Belpage\Documents\GitHub\WCF-Demo-With-Windows-and-Web-Client\OrginxDataService\OrginxDataService\bin\Debug\OrginxDataService.pdb
+C:\Users\Belpage\Documents\GitHub\WCF-Demo-With-Windows-and-Web-Client\OrginxDataService\OrginxDataService\obj\Debug\OrginxDataService.csprojResolveAssemblyReference.cache
+C:\Users\Belpage\Documents\GitHub\WCF-Demo-With-Windows-and-Web-Client\OrginxDataService\OrginxDataService\obj\Debug\OrginxDataService.dll
+C:\Users\Belpage\Documents\GitHub\WCF-Demo-With-Windows-and-Web-Client\OrginxDataService\OrginxDataService\obj\Debug\OrginxDataService.pdb

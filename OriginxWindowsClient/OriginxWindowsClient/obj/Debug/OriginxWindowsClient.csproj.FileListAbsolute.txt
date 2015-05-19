@@ -38,3 +38,4 @@ F:\GitHub\WCF Demo With Windows & Web Client\OriginxWindowsClient\OriginxWindows
 F:\GitHub\WCF Demo With Windows & Web Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\App.baml
 F:\GitHub\WCF Demo With Windows & Web Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\CustomerForm\CustomerManage.baml
 F:\GitHub\WCF Demo With Windows & Web Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\CustomerForm\CustomerManage.g.cs
+C:\Users\Belpage\Documents\GitHub\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\bin\Debug\OriginxWindowsClient.exe.config

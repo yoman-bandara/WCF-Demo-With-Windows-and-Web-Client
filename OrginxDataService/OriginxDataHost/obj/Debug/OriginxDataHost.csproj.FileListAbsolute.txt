@@ -14,3 +14,11 @@ F:\GitHub\WCF Demo With Windows & Web Client\OrginxDataService\OriginxDataHost\b
 F:\GitHub\WCF Demo With Windows & Web Client\OrginxDataService\OriginxDataHost\obj\Debug\OriginxDataHost.csprojResolveAssemblyReference.cache
 F:\GitHub\WCF Demo With Windows & Web Client\OrginxDataService\OriginxDataHost\obj\Debug\OriginxDataHost.exe
 F:\GitHub\WCF Demo With Windows & Web Client\OrginxDataService\OriginxDataHost\obj\Debug\OriginxDataHost.pdb
+C:\Users\Belpage\Documents\GitHub\WCF-Demo-With-Windows-and-Web-Client\OrginxDataService\OriginxDataHost\bin\Debug\OriginxDataHost.exe.config
+C:\Users\Belpage\Documents\GitHub\WCF-Demo-With-Windows-and-Web-Client\OrginxDataService\OriginxDataHost\bin\Debug\OriginxDataHost.exe
+C:\Users\Belpage\Documents\GitHub\WCF-Demo-With-Windows-and-Web-Client\OrginxDataService\OriginxDataHost\bin\Debug\OriginxDataHost.pdb
+C:\Users\Belpage\Documents\GitHub\WCF-Demo-With-Windows-and-Web-Client\OrginxDataService\OriginxDataHost\bin\Debug\OrginxDataService.dll
+C:\Users\Belpage\Documents\GitHub\WCF-Demo-With-Windows-and-Web-Client\OrginxDataService\OriginxDataHost\bin\Debug\OrginxDataService.pdb
+C:\Users\Belpage\Documents\GitHub\WCF-Demo-With-Windows-and-Web-Client\OrginxDataService\OriginxDataHost\obj\Debug\OriginxDataHost.csprojResolveAssemblyReference.cache
+C:\Users\Belpage\Documents\GitHub\WCF-Demo-With-Windows-and-Web-Client\OrginxDataService\OriginxDataHost\obj\Debug\OriginxDataHost.exe
+C:\Users\Belpage\Documents\GitHub\WCF-Demo-With-Windows-and-Web-Client\OrginxDataService\OriginxDataHost\obj\Debug\OriginxDataHost.pdb

@@ -7,11 +7,12 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.Text;
+using System.Net.Mail;
 
 namespace OrginxDataService
 {
     // NOTE: You can use the "Rename" command on the "Refactor" menu to change the class name "OriginxDataService" in both code and config file together.
-    public class OriginxDataService : IOriginxDataService,IEmployeeService,ICustomerService
+    public class OriginxDataService : IOriginxDataService,IEmployeeService,ICustomerService,IEmailService
     {
 
        
@@ -114,5 +115,34 @@ namespace OrginxDataService
         }
 
 
+
+        public bool SendMail(string emailTo, string subject, string body, bool
+ isBodyHtml)
+        {
+            if (string.IsNullOrEmpty(emailTo))
+            {
+                return false;
+            }
+            using (SmtpClient smtpClient = new SmtpClient())
+            {
+                using (MailMessage message = new MailMessage())
+                {
+                    message.Subject = subject == null ? "" : subject;
+                    message.Body = body == null ? "" : body;
+                    message.IsBodyHtml = isBodyHtml;
+                    message.To.Add(new MailAddress(emailTo));
+                    try
+                    {
+                        smtpClient.Send(message);
+                        return true;
+                    }
+                    catch (Exception ex)
+                    {
+                        throw new FaultException(ex.Message);
+                    }
+
+                }
+            }
+        }
     }
 }

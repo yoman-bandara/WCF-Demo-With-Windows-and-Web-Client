@@ -80,6 +80,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
+    <Compile Include="Service References\EmailService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="Service References\EmployeeService\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -137,6 +142,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="app.config" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -154,6 +160,16 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="Service References\CustomerService\OriginxDataService.wsdl" />
+    <None Include="Service References\EmailService\item.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EmailService\item1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EmailService\item2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EmailService\OriginxDataService.wsdl" />
     <None Include="Service References\EmployeeService\item.xsd">
       <SubType>Designer</SubType>
     </None>
@@ -183,6 +199,7 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadataStorage Include="Service References\CustomerService\" />
+    <WCFMetadataStorage Include="Service References\EmailService\" />
     <WCFMetadataStorage Include="Service References\EmployeeService\" />
     <WCFMetadataStorage Include="Service References\OriginxWindowsService\" />
   </ItemGroup>
@@ -236,6 +253,21 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\Entypo-license.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\EmailService\item.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\EmailService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\EmailService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\EmailService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

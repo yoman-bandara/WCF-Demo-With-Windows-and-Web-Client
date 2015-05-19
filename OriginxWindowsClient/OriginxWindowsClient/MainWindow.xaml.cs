@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using MahApps.Metro.Controls;
+using System.ServiceModel;
 
 namespace OriginxWindowsClient
 {
@@ -39,6 +40,24 @@ namespace OriginxWindowsClient
                 MessageBox.Show("This is Error" + ex);
             }
                       
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            EmailService.EmailServiceClient emailClient = new EmailService.EmailServiceClient();
+            try
+            {
+                bool send = emailClient.SendMail("ruwanranganathz@gmail.com", "WCF Test", "Hi Ruwan </br> Adooh !", true);
+                if(send){
+                    MessageBox.Show("Email Sent ");
+                }else{
+                    MessageBox.Show("something wrong Please try again...");
+                }
+            }catch (FaultException ex){
+                MessageBox.Show(ex.Message);
+            }finally{
+                emailClient.Close();
+            }
         }
     }
 }

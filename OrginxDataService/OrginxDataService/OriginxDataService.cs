@@ -12,7 +12,7 @@ using System.Net.Mail;
 namespace OrginxDataService
 {
     // NOTE: You can use the "Rename" command on the "Refactor" menu to change the class name "OriginxDataService" in both code and config file together.
-    public class OriginxDataService : IOriginxDataService,IEmployeeService,ICustomerService,IEmailService
+    public class OriginxDataService : IOriginxDataService,IEmployeeService,ICustomerService,IEmailService,IWorlWideBranchService
     {
 
        
@@ -143,6 +143,11 @@ namespace OrginxDataService
 
                 }
             }
+        }
+
+        public void AddWorldWideBranch(WorldWideBranchClass WorldWideBranch)
+        {
+            
         }
     }
 }

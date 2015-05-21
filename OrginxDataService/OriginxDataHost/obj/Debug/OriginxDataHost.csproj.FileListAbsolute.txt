@@ -22,3 +22,6 @@ C:\Users\Belpage\Documents\GitHub\WCF-Demo-With-Windows-and-Web-Client\OrginxDat
 C:\Users\Belpage\Documents\GitHub\WCF-Demo-With-Windows-and-Web-Client\OrginxDataService\OriginxDataHost\obj\Debug\OriginxDataHost.csprojResolveAssemblyReference.cache
 C:\Users\Belpage\Documents\GitHub\WCF-Demo-With-Windows-and-Web-Client\OrginxDataService\OriginxDataHost\obj\Debug\OriginxDataHost.exe
 C:\Users\Belpage\Documents\GitHub\WCF-Demo-With-Windows-and-Web-Client\OrginxDataService\OriginxDataHost\obj\Debug\OriginxDataHost.pdb
+C:\Users\Umasha Sandapani\Documents\GitHub\WCF-Demo-With-Windows-and-Web-Client\OrginxDataService\OriginxDataHost\bin\Debug\OriginxDataHost.exe.config
+C:\Users\Umasha Sandapani\Documents\GitHub\WCF-Demo-With-Windows-and-Web-Client\OrginxDataService\OriginxDataHost\obj\Debug\OriginxDataHost.exe
+C:\Users\Umasha Sandapani\Documents\GitHub\WCF-Demo-With-Windows-and-Web-Client\OrginxDataService\OriginxDataHost\obj\Debug\OriginxDataHost.pdb
